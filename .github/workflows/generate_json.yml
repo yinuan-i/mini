@@ -3,10 +3,10 @@ name: Generate JSON
 on:
   push:
     branches:
-      - main  # 在推送到 main 分支时触发工作流（你可以根据需要修改分支名称）
+      - master  # 在推送到 main 分支时触发工作流（你可以根据需要修改分支名称）
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
